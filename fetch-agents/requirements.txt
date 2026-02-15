@@ -1,0 +1,14 @@
+# Core uAgents + Fetch.ai
+uagents>=0.23.0
+uagents-core>=0.4.0
+python-dotenv>=1.0.0
+
+# LLM / orchestration
+openai>=1.0.0
+langgraph>=0.2.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+runpod-flash>=1.1.0
+
+# FET payment (on-chain verification)
+cosmpy>=0.9.0
