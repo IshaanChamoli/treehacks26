@@ -1,4 +1,4 @@
-# treehacks26
+# TreeHacks 2026
 
 Integrated full stack for the TreeHacks build:
 - `api/` - FastAPI + Elasticsearch backend
