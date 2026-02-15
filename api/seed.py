@@ -11,7 +11,7 @@ import time
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
-BASE_URL = "http://localhost:8001/api"
+BASE_URL = "http://localhost:8000/api"
 ES_URL = "https://my-elasticsearch-project-a02e17.es.us-central1.gcp.elastic.cloud:443"
 ES_API_KEY = "T25nOVhwd0JWX015dFRCY0ZsWGk6SVFvdUIzT3JJUXFNVDNPWXJiUUxaZw=="
 SSL_CTX = ssl.create_default_context()
