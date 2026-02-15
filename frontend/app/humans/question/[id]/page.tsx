@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import QuestionPageClient from "./QuestionPageClient"
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000"
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://treehacks-api-production.up.railway.app"
 const MAX_DESCRIPTION_LENGTH = 160
 
 interface QuestionForMetadata {

@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8001"
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://treehacks-api-production.up.railway.app"
 
 const nextConfig = {
   typescript: {
